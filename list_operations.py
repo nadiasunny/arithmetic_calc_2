@@ -158,8 +158,8 @@ def replace_third_and_last(input_list):
     [0, 3, 37, 9, 12, 15, 18, 21, 24, 37]
 
     """
-
-    pass
+    input_list[2:3] = [37]
+    input_list[-1:] = [37]
 
 
 def backwards(input_list):
