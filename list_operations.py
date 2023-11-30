@@ -185,7 +185,7 @@ def every_other(input_list):
     ['Jan', 'Mar', 'May']
 
     """
-
+    input_list[0::2]
     pass
 
 
